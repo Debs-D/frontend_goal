@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #111827;
+}
+
+.navbar h1 {
+  font-size: 43px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.color {
+  color: #fff;
+}
+
+.color2 {
+  color: rgb(30, 191, 255);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+.nav-list ul {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn {
+  font-size: 15px;
+  color: rgb(30, 191, 255);
+  margin: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border-color: rgb(30, 191, 255);
+  cursor: pointer;
+  background-color: #111827;
+}
+
+.background h2 {
+  color: white;
+  font-size: 50px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.background h1 {
+  color: white;
+  margin-top: 40px;
+  font-size: 70px;
+}
+
+.background p {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.showcase {
+  margin-left: 100px;
+  padding: 100px;
+}
+
+.image {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+  align-items: center;
+}
+
+img[data-testid="slackProfilePicture"] {
+  max-width: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 30px;
+}
+
+.showcase {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+}
+
+h1[data-testid="slackDisplayName"] {
+  font-size: 2em;
+  margin: 0 0 20px 0;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+
+.links {
+  margin-bottom: 20px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.home-page {
+  margin-left: 25%;
+}
+
+.link-container {
+  text-align: center;
+}
+
+.link-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.link-button:hover {
+  background-color: #3e8e41;
+}
