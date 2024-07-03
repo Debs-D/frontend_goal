@@ -153,3 +153,106 @@ h1[data-testid="slackDisplayName"] {
 .link-button:hover {
   background-color: #3e8e41;
 }
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar h1 {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    margin: 10px 0;
+  }
+
+  .showcase {
+    margin-left: 0;
+    padding: 50px;
+  }
+
+  .background h1 {
+    font-size: 50px;
+  }
+
+  .background h2 {
+    font-size: 40px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .navbar h1 {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .nav-list li a {
+    padding: 5px 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .background h1 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .background h2 {
+    font-size: 30px;
+  }
+
+  .showcase {
+    padding: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  img[data-testid="slackProfilePicture"] {
+    max-width: 150px;
+    padding: 20px;
+  }
+
+  h1[data-testid="slackDisplayName"] {
+    font-size: 1.5em;
+  }
+
+  .intro p {
+    font-size: 0.9em;
+    margin-right: 50px;
+  }
+
+  .links a {
+    margin: 0 5px;
+  }
+
+  .home-page {
+    margin-left: 0;
+  }
+
+  .link-button {
+    padding: 8px 15px;
+    margin: 5px;
+  }
+}
